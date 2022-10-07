@@ -16,8 +16,8 @@ const Layout = ({ children }) => {
         <div className="h-screen">
           <SideBar />
         </div>
-        <div className="grid grid-cols-4 w-full gap-x-3xlarge mt-base mr-base">
-          <div className="col-span-3">{children}</div>
+        <div className="grid grid-cols-3 w-full gap-x-3xlarge mt-base mr-base">
+          <div className="col-span-2">{children}</div>
           <div className="h-screen">
             <CartView />
           </div>
